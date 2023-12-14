@@ -1,0 +1,37 @@
+.background {
+  background-color: hsl(231, 69%, 60%);
+  padding: 50px 0;
+  width: 100%;
+}
+
+.title {
+  width:100%;
+  margin: auto;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  padding: 0;
+}
+
+.contact {
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}

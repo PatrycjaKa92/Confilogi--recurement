@@ -1,0 +1,60 @@
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  margin: 0;
+}
+
+.logo-heaader {
+  color:#242A45;
+}
+
+.bookmark {
+  padding:0;
+  margin:0;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(229, 31%, 21%);
+  padding: 30px 0;
+}
+
+.logo-footer {
+ color:white;
+ margin: 20px auto;
+}
+
+.ahref {
+  color:white;
+  margin: 20px auto;
+}
+
+.social {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  gap:80px;
+}
+
+app-menu-hamburger {
+  position:fixed;
+  right:0;
+  top:0;
+  z-index: 3;
+}

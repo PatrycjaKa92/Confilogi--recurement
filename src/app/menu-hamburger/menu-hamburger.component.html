@@ -1,0 +1,19 @@
+<div class="popup-show" [hidden]="hidden | async">
+  <div class="popup-background" (click)="menu()"></div>
+  <div class="popup-menu">
+    <div class="logo-close">
+  <app-logo-bookmark-svg></app-logo-bookmark-svg>
+    <button
+      class="close"
+      (click)="menu()"
+      aria-label="close menu"
+      title="close menu"
+    >
+      <app-icon-close-svg></app-icon-close-svg>
+    </button>
+  </div>
+    <nav>
+
+    </nav>
+  </div>
+</div>
