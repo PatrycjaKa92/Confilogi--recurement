@@ -30,3 +30,32 @@ hr {
   width: 60%;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 700px) and (min-height:500px){
+.flex-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+hr {
+  width:100%;
+}
+
+.simple {
+  padding: 0 40px;
+  font-size: smaller;
+}
+
+.hr-red{
+  width: 100%;
+}
+
+.none-desktop {
+  display: none;
+}
+
+.description {
+  width: 80%;
+}
+}

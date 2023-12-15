@@ -1,18 +1,18 @@
 <div class="page">
   <div class="header margin-desktop">
-    <app-logo-bookmark-svg class="logo-header"></app-logo-bookmark-svg>
+    <app-logo-bookmark-svg class="logo-header margin-desktop"></app-logo-bookmark-svg>
     <app-icon-hamburger-svg class="icon-hamburger" (click)="menu.menu()"></app-icon-hamburger-svg>
     <div class="menu-desktop">
-      <a >FEATURES</a>
-      <a >PRICING</a>
-      <a >CONTACT</a>
-      <a >LOGIN</a>
+      <a>FEATURES</a>
+      <a>PRICING</a>
+      <a>CONTACT</a>
+      <button class="login"><a>LOGIN</a></button>
     </div>
   </div>
   <app-menu-hamburger #menu></app-menu-hamburger>
   <div class="inside">
     <app-simple-bookmark class="bookmark"></app-simple-bookmark>
-    <app-features class="bookmark"></app-features>
+    <app-features class="bookmark features-desktop"></app-features>
     <app-bookmark-in-one-click class="bookmark"></app-bookmark-in-one-click>
     <app-download-the-extension class="bookmark"></app-download-the-extension>
     <app-frequently-asked-question class="bookmark"></app-frequently-asked-question>

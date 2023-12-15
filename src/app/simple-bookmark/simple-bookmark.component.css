@@ -1,5 +1,4 @@
 
-
 .blueShape {
   background-color: hsl(231, 69%, 60%);
   float: right;
@@ -75,4 +74,27 @@
 }
 
 @media screen and (min-width: 700px) and (min-height:500px){
+  .hero {
+    transform: translate(-60%, -10%);
+  }
+
+  .change-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text {
+    width: 30%;
+    padding-left: 110px;
+  }
+
+  .title, .description {
+    text-align: left;
+  }
+
+  .buttons {
+    justify-content: left;
+  }
 }
