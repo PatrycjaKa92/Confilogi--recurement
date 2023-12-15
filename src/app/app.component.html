@@ -1,7 +1,13 @@
 <div class="page">
-  <div class="header">
+  <div class="header margin-desktop">
     <app-logo-bookmark-svg class="logo-header"></app-logo-bookmark-svg>
-    <app-icon-hamburger-svg (click)="menu.menu()"></app-icon-hamburger-svg>
+    <app-icon-hamburger-svg class="icon-hamburger" (click)="menu.menu()"></app-icon-hamburger-svg>
+    <div class="menu-desktop">
+      <a >FEATURES</a>
+      <a >PRICING</a>
+      <a >CONTACT</a>
+      <a >LOGIN</a>
+    </div>
   </div>
   <app-menu-hamburger #menu></app-menu-hamburger>
   <div class="inside">

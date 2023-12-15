@@ -58,3 +58,23 @@ app-menu-hamburger {
   top:0;
   z-index: 3;
 }
+
+.menu-desktop {
+  display: none;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media screen and (min-width: 700px) and (min-height:500px){
+  .icon-hamburger {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: flex;
+  }
+
+  .margin-desktop {
+    margin: 0 100px;
+  }
+}
