@@ -38,6 +38,10 @@
   transform: translate(-60%, -10%);
 }
 
+.button{
+  display: flex;
+}
+
 .chrome {
   background-color: hsl(231, 69%, 60%);
   color: white;
@@ -69,5 +73,9 @@
 
   .title, .description {
     text-align: left;
+  }
+
+  .chrome {
+    margin:0;
   }
 }

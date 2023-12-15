@@ -15,7 +15,7 @@
 }
 
 .browser {
-  width:80%;
+  width:280px;
   margin: 20px auto;
   padding: 30px 10px;
   display: flex;
@@ -31,8 +31,8 @@
 }
 
 .title-add {
-font-weight: 500;
-margin:10px auto;
+  font-weight: 500;
+  margin:10px auto;
 }
 
 .chrome {
@@ -45,4 +45,27 @@ margin:10px auto;
   font-size: 18px;
   width:fit-content;
   margin: auto;
+}
+
+@media screen and (min-width: 700px) and (min-height:500px){
+  .description {
+    width: 40%;
+  }
+
+  .flex-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 12%;
+    align-items:center;
+  }
+
+  .up {
+    margin-bottom: 100px;
+  }
+
+  .down {
+    margin-top: 100px;
+  }
+
 }
