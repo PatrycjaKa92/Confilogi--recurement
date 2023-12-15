@@ -23,4 +23,8 @@ export class MenuHamburgerComponent {
     this.hidden.next(!this.hidden);
   }
 
+  close() {
+    this.hidden.next(true);
+  }
+
 }
