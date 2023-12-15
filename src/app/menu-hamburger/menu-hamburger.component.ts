@@ -4,6 +4,8 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { LogoBookmarkSvgComponent } from '../svg/logo-bookmark-svg/logo-bookmark-svg.component';
 import { RouterLink } from '@angular/router';
+import { IconFacebookSvgComponent } from '../svg/icon-facebook-svg/icon-facebook-svg.component';
+import { IconTwitterSvgComponent } from '../svg/icon-twitter-svg/icon-twitter-svg.component';
 
 @Component({
   selector: 'app-menu-hamburger',
@@ -11,7 +13,7 @@ import { RouterLink } from '@angular/router';
   styleUrls: ['./menu-hamburger.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
-  imports: [IconCloseSvgComponent, CommonModule, LogoBookmarkSvgComponent, RouterLink]
+  imports: [IconCloseSvgComponent, CommonModule, LogoBookmarkSvgComponent, RouterLink, IconFacebookSvgComponent, IconTwitterSvgComponent]
 })
 export class MenuHamburgerComponent {
 
