@@ -15,6 +15,7 @@ import { IconFacebookSvgComponent } from './svg/icon-facebook-svg/icon-facebook-
 import { IconTwitterSvgComponent } from './svg/icon-twitter-svg/icon-twitter-svg.component';
 import { MenuHamburgerComponent } from './menu-hamburger/menu-hamburger.component';
 import { AsyncPipe } from '@angular/common';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { AsyncPipe } from '@angular/common';
     IconTwitterSvgComponent,
     MenuHamburgerComponent,
     AsyncPipe,
+    ModalComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

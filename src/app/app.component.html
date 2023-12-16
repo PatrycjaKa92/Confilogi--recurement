@@ -1,5 +1,5 @@
 <div class="page">
-  <div class="header margin-desktop">
+  <div class="header margin-desktop" (mouseenter)="modal.modal()">
     <app-logo-bookmark-svg class="logo-header margin-desktop"></app-logo-bookmark-svg>
     <app-icon-hamburger-svg class="icon-hamburger" (click)="menu.menu()"></app-icon-hamburger-svg>
     <div class="menu-desktop">
@@ -10,6 +10,7 @@
     </div>
   </div>
   <app-menu-hamburger #menu></app-menu-hamburger>
+  <app-modal #modal></app-modal>
   <div class="inside">
     <app-simple-bookmark class="bookmark"></app-simple-bookmark>
     <app-features class="bookmark width-desktop"></app-features>
