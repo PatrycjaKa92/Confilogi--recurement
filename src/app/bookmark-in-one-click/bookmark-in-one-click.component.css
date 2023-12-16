@@ -36,6 +36,7 @@
   margin:auto;
   padding:0;
   transform: translate(-60%, -10%);
+  background-color: hsl(229, 8%, 60%);
 }
 
 .button{

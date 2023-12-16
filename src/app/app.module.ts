@@ -16,10 +16,12 @@ import { IconTwitterSvgComponent } from './svg/icon-twitter-svg/icon-twitter-svg
 import { MenuHamburgerComponent } from './menu-hamburger/menu-hamburger.component';
 import { AsyncPipe } from '@angular/common';
 import { ModalComponent } from './modal/modal.component';
+import { SpeedySearchingComponent } from './speedy-searching/speedy-searching.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+
    ],
   imports: [
     BrowserModule,
@@ -37,6 +39,7 @@ import { ModalComponent } from './modal/modal.component';
     MenuHamburgerComponent,
     AsyncPipe,
     ModalComponent,
+    SpeedySearchingComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
