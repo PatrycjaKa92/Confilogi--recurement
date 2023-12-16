@@ -1,6 +1,6 @@
 <div class="page">
-  <div class="header margin-desktop" (mouseenter)="modal.modal()">
-    <app-logo-bookmark-svg class="logo-header margin-desktop"></app-logo-bookmark-svg>
+  <div class="header margin-desktop" >
+    <app-logo-bookmark-svg class="logo-header margin-desktop" (mouseenter)="modal.modal()"></app-logo-bookmark-svg>
     <app-icon-hamburger-svg class="icon-hamburger" (click)="menu.menu()"></app-icon-hamburger-svg>
     <div class="menu-desktop">
       <a>FEATURES</a>
@@ -10,7 +10,7 @@
     </div>
   </div>
   <app-menu-hamburger #menu></app-menu-hamburger>
-  <app-modal #modal></app-modal>
+
   <div class="inside">
     <app-simple-bookmark class="bookmark"></app-simple-bookmark>
     <app-features class="bookmark width-desktop"></app-features>
@@ -31,4 +31,5 @@
       <a><app-icon-twitter-svg></app-icon-twitter-svg></a>
     </div>
   </div></div>
+  <app-modal #modal></app-modal>
 <router-outlet></router-outlet>

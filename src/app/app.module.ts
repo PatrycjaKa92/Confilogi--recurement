@@ -36,7 +36,7 @@ import { ModalComponent } from './modal/modal.component';
     IconTwitterSvgComponent,
     MenuHamburgerComponent,
     AsyncPipe,
-    ModalComponent
+    ModalComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
