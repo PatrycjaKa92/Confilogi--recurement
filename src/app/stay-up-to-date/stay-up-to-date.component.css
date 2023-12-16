@@ -17,14 +17,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .input {
-  margin: auto;
+  width:286px;
   border: none;
   border-radius: 5px;
-  width: 300px;
   height: 50px;
   padding: 0 8px;
 }
@@ -34,6 +33,41 @@
   color: white;
   font-weight: 500;
   font-size: 18px;
+  margin: auto;
+  width:300px;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.input-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.errors {
+  width: 300px;
+  height: 15px;
+}
+
+.input-error {
+  border: 2px solid hsl(0, 94%, 66%);
+  background-color: hsl(0, 94%, 66%);
+  width:302px;
+}
+
+.mistake {
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  font-size:x-small;
+  font-style: italic;
+  border-radius: 5px;
+  border: 2px solid hsl(0, 94%, 66%);
 }
 
 @media screen and (min-width: 700px) and (min-height:500px){
@@ -47,11 +81,24 @@
     justify-content: space-between;
   }
 
-  .input {
-    width: 70%;
+  .input, .errors {
+    width: 230px;
+  }
+
+  .input-info{
+    width: 246px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    gap:0;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .contact{
-    width:30%
+    width:50%;
+    margin-bottom: 15px;
   }
 }

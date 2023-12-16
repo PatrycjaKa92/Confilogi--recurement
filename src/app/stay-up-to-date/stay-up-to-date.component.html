@@ -1,10 +1,30 @@
 <div class="background">
   <div class="width-desktop">
-    <p class="title">35000+ ALREADY JOINED</p>
+    <p class="title">{{ counterDown$ | async }}+ ALREADY JOINED</p>
     <h2 class="title">Stay up-to-date with what we're doing</h2>
-    <form class="email">
-    <input class="input" type="email" placeholder="Enter your e-mail address">
-    <button class="contact input">Contact Us</button>
+    <form [formGroup]="Form" (ngSubmit)="onSubmit()" class="email" >
+      <div [className]="isError">
+    <input class="input" type="email" formControlName="email" placeholder="Enter your e-mail address">
+    <div class="errors">
+    <ng-container
+    *ngIf="Form.get('email')?.errors && Form.get('email')?.touched">
+    <div
+      class="mistake"
+      *ngIf="Form.get('email')?.hasError('required')"
+    >
+      Email is required
+    </div>
+    <div
+      class="mistake"
+      *ngIf="Form.get('email')?.hasError('email')"
+    >
+      Whoops, make sure it's an email
+    </div>
+  </ng-container>
+</div>
+</div>
+    <button class="contact" type="submit">Contact Us</button>
+
     </form>
   </div>
 </div>
