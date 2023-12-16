@@ -31,6 +31,10 @@ hr {
   margin: 0 auto;
 }
 
+.features {
+  margin-bottom: 100px;
+}
+
 @media screen and (min-width: 700px) and (min-height:500px){
 .flex-desktop {
   display: flex;
