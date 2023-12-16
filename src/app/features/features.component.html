@@ -1,3 +1,6 @@
+
+<div class="column">
+<div class="width-desktop">
 <h2 class="title">Features</h2>
 <p class="description">
   Our aim is to make it quick and easy for you to access your favorite websites.
@@ -6,16 +9,25 @@
 <hr class="none-desktop">
 <div class="flex-desktop">
   <div>
-<h3 class="simple">Simple Bookmarks</h3>
-<hr class="hr-red">
+<h3 class="simple" (click)="simpleBookmarks()">Simple Bookmarks</h3>
+<hr class="hr-red" *ngIf="choice==='simple bookmarks'">
 <hr class="none-desktop">
 </div>
 <div>
-<h3 class="simple">Speedy Searching</h3>
+<h3 class="simple" (click)="speedySearching()">Speedy Searching</h3>
+<hr class="hr-red" *ngIf="choice==='speedy searching'">
 <hr>
 </div>
 <div>
-<h3 class="simple">Easy Scharing</h3>
+<h3 class="simple" (click)="easyScharing()">Easy Scharing</h3>
+<hr class="hr-red" *ngIf="choice==='easy scharing'">
 <hr>
 </div>
+</div>
+</div>
+
+<app-bookmark-in-one-click *ngIf="choice==='simple bookmarks'"></app-bookmark-in-one-click>
+<app-speedy-searching *ngIf="choice==='speedy searching'"></app-speedy-searching>
+
+<app-easy-scharing *ngIf="choice==='easy scharing'"></app-easy-scharing>
 </div>

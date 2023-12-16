@@ -31,6 +31,15 @@ hr {
   margin: 0 auto;
 }
 
+.width-desktop {
+  margin-bottom: 100px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 700px) and (min-height:500px){
 .flex-desktop {
   display: flex;
@@ -57,5 +66,10 @@ hr {
 
 .description {
   width: 80%;
+}
+
+.width-desktop {
+  width: 50%;
+  margin: auto;
 }
 }
