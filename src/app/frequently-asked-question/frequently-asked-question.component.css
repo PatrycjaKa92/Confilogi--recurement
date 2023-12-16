@@ -24,6 +24,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   margin: 0 10px;
+  padding: 0 10px;
 }
 
 .question {
@@ -46,4 +47,10 @@ hr {
   display: flex;
   justify-content: center;
   padding: 20px 0;
+}
+
+@media screen and (min-width: 700px) and (min-height:500px){
+  .description {
+    width: 80%;
+  }
 }
