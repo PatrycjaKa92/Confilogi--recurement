@@ -29,6 +29,13 @@
   padding: 30px 0;
 }
 
+.footer-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .logo-footer {
  color:white;
  margin: 20px auto;
@@ -40,6 +47,7 @@
 }
 
 .social {
+  width:fit-content;
   display: flex;
   gap: 50px;
   padding-top: 20px;
@@ -100,5 +108,29 @@ app-menu-hamburger {
   .width-desktop {
     width: 50%;
     margin: auto;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+    justify-content: left;
+    width:fit-content;
+    gap:30px;
+    padding: 0 100px;
+    align-items: center;
+  }
+
+  .ahref {
+    margin: auto;
+    font-size: smaller;
+  }
+
+  .social {
+    padding: 0 100px;
   }
 }
