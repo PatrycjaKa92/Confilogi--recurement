@@ -40,6 +40,12 @@
   height: 50px;
 }
 
+.contact:hover {
+  background-color: white;
+  color:hsl(0, 94%, 66%);
+  border: 1px solid hsl(0, 94%, 66%);
+}
+
 .input-info {
   display: flex;
   flex-direction: column;

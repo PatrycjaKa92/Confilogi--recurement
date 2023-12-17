@@ -71,6 +71,9 @@ app-menu-hamburger, app-modal {
   display: none;
 }
 
+a:hover {
+  color: hsl(0, 94%, 66%);
+}
 
 @media screen and (min-width: 700px) and (min-height:500px){
   .icon-hamburger {

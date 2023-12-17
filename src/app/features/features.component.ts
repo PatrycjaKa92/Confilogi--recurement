@@ -20,15 +20,28 @@ export class FeaturesComponent implements OnInit {
 
   choice='simple bookmarks';
 
+  desktop1='none-desktop';
+  desktop2='';
+  desktop3='';
+
   simpleBookmarks() {
-  this.choice='simple bookmarks'
+  this.choice='simple bookmarks';
+  this.desktop1= 'none-desktop';
+  this.desktop2='';
+  this.desktop3='';
   }
 
   speedySearching() {
-    this.choice='speedy searching'
+    this.choice='speedy searching';
+    this.desktop1= '';
+    this.desktop2='none-desktop';
+    this.desktop3='';
   }
 
   easyScharing() {
-    this.choice='easy scharing'
+    this.choice='easy scharing';
+    this.desktop1= '';
+    this.desktop2='';
+    this.desktop3='none-desktop';
   }
 }

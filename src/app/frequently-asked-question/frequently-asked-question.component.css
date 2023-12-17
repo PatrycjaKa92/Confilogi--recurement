@@ -19,6 +19,12 @@ hr {
   margin: 0 auto;
 }
 
+.question-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .question-arrow {
   display: flex;
   justify-content: space-between;
@@ -27,8 +33,34 @@ hr {
   padding: 0 10px;
 }
 
+.question-arrow .answer {
+  display: none;
+}
+
+.question-clicked .answer {
+  display: block;
+}
+
+.question-clicked .svg {
+  color: hsl(0, 94%, 66%);
+  transform: rotate(180deg);
+}
+
 .question {
   font-weight: 400;
+}
+
+.question-arrow:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.svg {
+  color: #5267DF;
+}
+
+.answer {
+  display: none;
+  color: hsl(229, 8%, 60%);
 }
 
 .chrome {
@@ -54,3 +86,5 @@ hr {
     width: 80%;
   }
 }
+
+

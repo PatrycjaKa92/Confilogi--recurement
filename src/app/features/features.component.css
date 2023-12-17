@@ -31,13 +31,8 @@ hr {
   margin: 0 auto;
 }
 
-.width-desktop {
+.features {
   margin-bottom: 100px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 700px) and (min-height:500px){
@@ -54,6 +49,12 @@ hr {
 .simple {
   padding: 0 40px;
   font-size: smaller;
+  border: none;
+  background-color: white;
+}
+
+.simple:hover {
+  color:hsl(0, 94%, 66%);
 }
 
 .hr-red{
@@ -68,8 +69,8 @@ hr {
   width: 80%;
 }
 
-.width-desktop {
+.features {
   width: 50%;
-  margin: auto;
+  margin: 100px auto;
 }
 }
