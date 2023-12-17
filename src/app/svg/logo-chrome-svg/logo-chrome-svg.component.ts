@@ -1,12 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-logo-chrome-svg',
   templateUrl: './logo-chrome-svg.component.html',
-  styleUrls: ['./logo-chrome-svg.component.css'],
-  standalone:true,
+  standalone: true,
 })
-export class LogoChromeSvgComponent {
-
-
-}
+export class LogoChromeSvgComponent {}
