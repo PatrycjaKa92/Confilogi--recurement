@@ -25,8 +25,16 @@
   margin: 0;
 }
 
-.logo-bookmark {
-  color: white;
+.logo-bookmark-menu .inside-svg{
+  fill: white;
+}
+
+.logo-bookmark-menu circle{
+  fill: white;
+}
+
+.logo-bookmark-menu path{
+  fill:hsl(229, 31%, 21%);
 }
 
 .close {
@@ -68,3 +76,6 @@ hr {
   border: 0.3px solid hsl(229, 8%, 60%);
   margin: 0 auto;
 }
+
+
+

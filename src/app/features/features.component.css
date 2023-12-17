@@ -23,6 +23,7 @@ hr {
   text-align: center;
   margin: 20px auto;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .hr-red {

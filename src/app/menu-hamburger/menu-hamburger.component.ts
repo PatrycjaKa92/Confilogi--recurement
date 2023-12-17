@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { IconCloseSvgComponent } from './../svg/icon-close-svg/icon-close-svg.component';
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { LogoBookmarkSvgComponent } from '../svg/logo-bookmark-svg/logo-bookmark-svg.component';
 import { RouterLink } from '@angular/router';
@@ -13,6 +13,7 @@ import { IconTwitterSvgComponent } from '../svg/icon-twitter-svg/icon-twitter-sv
   styleUrls: ['./menu-hamburger.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
+  encapsulation: ViewEncapsulation.ShadowDom,
   imports: [IconCloseSvgComponent, CommonModule, LogoBookmarkSvgComponent, RouterLink, IconFacebookSvgComponent, IconTwitterSvgComponent]
 })
 export class MenuHamburgerComponent {
