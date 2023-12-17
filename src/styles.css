@@ -11,6 +11,11 @@ button:hover, a:hover {
 cursor: pointer;
 }
 
+app-icon-facebook-svg, app-icon-twitter-svg {
+  color: #FFF;
+}
 
-
+app-icon-facebook-svg:hover, app-icon-twitter-svg:hover {
+  color: hsl(0, 94%, 66%);
+}
 

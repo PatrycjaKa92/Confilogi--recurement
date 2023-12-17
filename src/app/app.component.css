@@ -49,6 +49,7 @@
 .social {
   width:fit-content;
   display: flex;
+  align-items: center;
   gap: 50px;
   padding-top: 20px;
 }
