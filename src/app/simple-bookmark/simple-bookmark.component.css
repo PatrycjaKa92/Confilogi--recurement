@@ -2,7 +2,7 @@
 .blueShape {
   background-color: hsl(231, 69%, 60%);
   float: right;
-  width:267px;
+  width:266px;
   height: 210px;
   border: none;
   border-radius: 80px 0 0 80px;
@@ -87,8 +87,18 @@
 }
 
 @media screen and (min-width: 700px) and (min-height:500px){
+  .blueShape {
+    width: 450px;
+    height: 315px;
+    border-radius: 120px 0 0 120px;
+  }
+
+  .illustration {
+    transform: scale(80%, 80%);
+  }
+
   .hero {
-    transform: translate(-60%, -10%);
+    transform: translate(-40%, -10%);
   }
 
   .change-container {
@@ -96,6 +106,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
   }
 
   .text {
