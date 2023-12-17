@@ -42,7 +42,7 @@
   position: absolute;
   margin:auto;
   padding:0;
-  transform: translate(-60%, -10%);
+  transform: translate(-72%, -10%);
 }
 
 .button{
@@ -61,7 +61,7 @@
   margin: auto;
 }
 
-@media screen and (min-width: 700px) and (min-height:500px){
+@media screen and (min-width: 1000px) and (min-height:500px){
   .flex-desktop {
     flex-direction: row;
     align-items: center;

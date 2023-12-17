@@ -10,7 +10,7 @@
 }
 
 .illustration {
-  transform: scale(55%, 55%);
+  transform: scale(50%, 50%);
   z-index: 1;
   margin:0;
   padding:0;
@@ -18,9 +18,11 @@
 
 .hero {
   position: absolute;
+  top: 0;
+  left: calc(130vw - 600px);
   margin:auto;
   padding:0;
-  transform: translate(-20%, -10%);
+  /* transform: translate(-20vw, -10%); */
 }
 
 .text {
@@ -86,7 +88,7 @@
   padding: 13px;
 }
 
-@media screen and (min-width: 700px) and (min-height:500px){
+@media screen and (min-width: 1000px) and (min-height:500px){
   .blueShape {
     width: 450px;
     height: 315px;
@@ -98,7 +100,8 @@
   }
 
   .hero {
-    transform: translate(-40%, -10%);
+    top: 0;
+    left: calc(10vw - 350px);
   }
 
   .change-container {

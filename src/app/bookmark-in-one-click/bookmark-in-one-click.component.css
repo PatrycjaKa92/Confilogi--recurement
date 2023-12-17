@@ -40,9 +40,9 @@
 
 .hero {
   position: absolute;
-  margin:auto;
+  margin:0 auto;
   padding:0;
-  transform: translate(-60%, 0);
+  transform: translate(-72%, 0);
 }
 
 .button{
@@ -61,7 +61,7 @@
   margin: auto;
 }
 
-@media screen and (min-width: 700px) and (min-height:500px){
+@media screen and (min-width: 1000px) and (min-height:500px){
   .flex-desktop {
     flex-direction: row;
     align-items: center;

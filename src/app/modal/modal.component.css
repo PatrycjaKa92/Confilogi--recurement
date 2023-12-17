@@ -21,7 +21,7 @@
 }
 
 .illustration {
-  transform: scale(65%, 65%);
+  transform: scale(60%, 60%);
   border: 20px solid hsl(229, 8%, 60%);
   border-radius: 5px;
   background-color: white;
@@ -35,8 +35,8 @@
   border-radius: 50%;
   z-index: 3;
   position: relative;
-  top: 340%;
-  left: 600%;
+  top: 380%;
+  left: 550%;
   z-index: 3;
 }
 
