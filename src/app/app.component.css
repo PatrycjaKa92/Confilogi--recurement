@@ -41,11 +41,6 @@
  margin: 20px auto;
 }
 
-.ahref {
-  color:white;
-  margin: 20px auto;
-}
-
 .social {
   width:fit-content;
   display: flex;
@@ -61,19 +56,8 @@
   gap:80px;
 }
 
-app-menu-hamburger, app-modal {
-  position:fixed;
-  right:0;
-  top:0;
-  z-index: 3;
-}
-
 .menu-desktop {
   display: none;
-}
-
-a:hover {
-  color: hsl(0, 94%, 66%);
 }
 
 @media screen and (min-width: 1000px) and (min-height:500px){
