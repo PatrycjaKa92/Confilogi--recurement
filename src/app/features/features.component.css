@@ -25,41 +25,41 @@ hr {
 }
 
 @media screen and (min-width: 1000px) and (min-height:500px){
-.flex-desktop {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  .flex-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-hr {
-  width:100%;
-}
+  hr {
+    width:100%;
+  }
 
-.simple {
-  padding: 0 40px;
-  font-size: smaller;
-  border: none;
-  background-color: white;
-}
+  .simple {
+    padding: 0 40px;
+    font-size: smaller;
+    border: none;
+    background-color: white;
+  }
 
-.simple:hover {
-  color:hsl(0, 94%, 66%);
-}
+  .simple:hover {
+    color:hsl(0, 94%, 66%);
+  }
 
-.hr-red{
-  width: 100%;
-}
+  .hr-red{
+    width: 100%;
+  }
 
-.none-desktop {
-  display: none;
-}
+  .none-desktop {
+    display: none;
+  }
 
-.description {
-  width: 80%;
-}
+  .description {
+    width: 80%;
+  }
 
-.features {
-  width: 50%;
-  margin: 100px auto;
-}
+  .features {
+    width: 50%;
+    margin: 100px auto;
+  }
 }

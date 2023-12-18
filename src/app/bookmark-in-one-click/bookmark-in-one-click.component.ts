@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { IllustrationHeroSvgComponent } from '../svg/illustration-hero-svg/illustration-hero-svg.component';
+import { Component } from '@angular/core';
 import { IllustrationFeaturesTab1SvgComponent } from '../svg/illustration-features-tab-1-svg/illustration-features-tab-1-svg.component';
 
 @Component({
@@ -9,11 +8,4 @@ import { IllustrationFeaturesTab1SvgComponent } from '../svg/illustration-featur
   standalone: true,
   imports: [IllustrationFeaturesTab1SvgComponent]
 })
-export class BookmarkInOneClickComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class BookmarkInOneClickComponent {}

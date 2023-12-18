@@ -1,7 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { IconArrowSvgComponent } from '../svg/icon-arrow-svg/icon-arrow-svg.component';
-import { BehaviorSubject, tap } from 'rxjs';
-import { AsyncPipe, NgClass } from '@angular/common';
 import { QuestionDirective } from './question.directive';
 
 @Component({
@@ -11,11 +9,4 @@ import { QuestionDirective } from './question.directive';
   standalone: true,
   imports: [IconArrowSvgComponent, QuestionDirective]
 })
-export class FrequentlyAskedQuestionComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class FrequentlyAskedQuestionComponent {}

@@ -8,8 +8,11 @@ body{
 }
 
 button:hover, a:hover {
-cursor: pointer;
-color: hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
+a:hover {
+  color: hsl(0, 94%, 66%);
 }
 
 app-icon-facebook-svg, app-icon-twitter-svg {
@@ -29,11 +32,6 @@ app-menu-hamburger, app-modal {
 
 input:focus, input:visited, input:active {
   outline: none !important;
-}
-
-.ahref {
-  color:white;
-  margin: 20px auto;
 }
 
 .title {

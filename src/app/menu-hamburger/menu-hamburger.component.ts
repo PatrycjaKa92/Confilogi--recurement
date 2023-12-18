@@ -1,9 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { IconCloseSvgComponent } from './../svg/icon-close-svg/icon-close-svg.component';
-import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { LogoBookmarkSvgComponent } from '../svg/logo-bookmark-svg/logo-bookmark-svg.component';
-import { RouterLink } from '@angular/router';
 import { IconFacebookSvgComponent } from '../svg/icon-facebook-svg/icon-facebook-svg.component';
 import { IconTwitterSvgComponent } from '../svg/icon-twitter-svg/icon-twitter-svg.component';
 
@@ -14,11 +13,9 @@ import { IconTwitterSvgComponent } from '../svg/icon-twitter-svg/icon-twitter-sv
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
   encapsulation: ViewEncapsulation.ShadowDom,
-  imports: [IconCloseSvgComponent, CommonModule, LogoBookmarkSvgComponent, RouterLink, IconFacebookSvgComponent, IconTwitterSvgComponent]
+  imports: [IconCloseSvgComponent, CommonModule, LogoBookmarkSvgComponent, IconFacebookSvgComponent, IconTwitterSvgComponent]
 })
 export class MenuHamburgerComponent {
-
-  constructor() { }
 
   hidden = new BehaviorSubject(true);
 

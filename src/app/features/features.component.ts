@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { BookmarkInOneClickComponent } from '../bookmark-in-one-click/bookmark-in-one-click.component';
 import { SpeedySearchingComponent } from '../speedy-searching/speedy-searching.component';
 import { EasyScharingComponent } from '../easy-scharing/easy-scharing.component';
@@ -11,12 +11,7 @@ import { NgIf } from '@angular/common';
   standalone: true,
   imports: [BookmarkInOneClickComponent, SpeedySearchingComponent, EasyScharingComponent, NgIf]
 })
-export class FeaturesComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class FeaturesComponent {
 
   choice='simple bookmarks';
 
@@ -25,10 +20,10 @@ export class FeaturesComponent implements OnInit {
   desktop3='';
 
   simpleBookmarks() {
-  this.choice='simple bookmarks';
-  this.desktop1= 'none-desktop';
-  this.desktop2='';
-  this.desktop3='';
+    this.choice='simple bookmarks';
+    this.desktop1= 'none-desktop';
+    this.desktop2='';
+    this.desktop3='';
   }
 
   speedySearching() {

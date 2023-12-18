@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IllustrationFeaturesTab2SvgComponent } from '../svg/illustration-features-tab-2-svg/illustration-features-tab-2-svg.component';
 import { CommonModule } from '@angular/common';
 
@@ -9,11 +9,4 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [IllustrationFeaturesTab2SvgComponent, CommonModule]
 })
-export class SpeedySearchingComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class SpeedySearchingComponent {}

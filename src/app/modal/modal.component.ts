@@ -3,7 +3,6 @@ import { BehaviorSubject } from 'rxjs';
 import { IconCloseSvgComponent } from '../svg/icon-close-svg/icon-close-svg.component';
 import { AsyncPipe, CommonModule } from '@angular/common';
 import { IllustrationFeaturesTab2SvgComponent } from '../svg/illustration-features-tab-2-svg/illustration-features-tab-2-svg.component';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-modal',
@@ -11,11 +10,9 @@ import { RouterLink } from '@angular/router';
   styleUrls: ['./modal.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
-  imports: [IconCloseSvgComponent, AsyncPipe, IllustrationFeaturesTab2SvgComponent, CommonModule, RouterLink],
+  imports: [IconCloseSvgComponent, AsyncPipe, IllustrationFeaturesTab2SvgComponent, CommonModule],
 })
 export class ModalComponent {
-
-  constructor() { }
 
   hidden = new BehaviorSubject(true);
 
