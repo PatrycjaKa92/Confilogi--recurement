@@ -15,12 +15,12 @@
     <div>
       <h3 class="simple" (click)="speedySearching()">Speedy Searching</h3>
       <hr class="hr-red" *ngIf="choice==='speedy searching'">
-      <hr>
+      <hr [className]="desktop2">
     </div>
     <div>
       <h3 class="simple" (click)="easyScharing()">Easy Scharing</h3>
       <hr class="hr-red" *ngIf="choice==='easy scharing'">
-      <hr>
+      <hr [className]="desktop3">
     </div>
   </div>
 </div>
