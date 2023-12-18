@@ -19,3 +19,6 @@ app-icon-facebook-svg:hover, app-icon-twitter-svg:hover {
   color: hsl(0, 94%, 66%);
 }
 
+input:focus, input:visited, input:active {
+  outline: none !important;
+}
